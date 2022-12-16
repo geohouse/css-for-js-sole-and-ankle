@@ -37,6 +37,7 @@ const Wrapper = styled.div`
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
   margin-right: auto;
+  margin-left: 32px;
   font-size: ${14 / 16 + "rem"};
 `;
 

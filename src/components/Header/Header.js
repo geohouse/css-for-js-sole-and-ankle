@@ -15,8 +15,8 @@ const Header = () => {
         <Logo
           style={{
             position: "absolute",
-            top: (120 / 1024).toString() * window.innerHeight + "px",
-            left: (56 / 1440).toString() * window.innerWidth + "px",
+            top: "12%",
+            left: "32px",
           }}
         />
         <Nav>
