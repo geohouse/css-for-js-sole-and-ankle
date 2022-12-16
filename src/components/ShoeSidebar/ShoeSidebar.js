@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
 
-import { COLORS, WEIGHTS } from '../../constants';
+import { COLORS, WEIGHTS } from "../../constants";
 
 const Sidebar = () => {
   return (
@@ -23,7 +23,10 @@ const Sidebar = () => {
   );
 };
 
-const Wrapper = styled.aside``;
+const Wrapper = styled.aside`
+  margin-right: 128px;
+  font-size: ${16 / 16 + "rem"};
+`;
 
 const Link = styled.a`
   display: block;
