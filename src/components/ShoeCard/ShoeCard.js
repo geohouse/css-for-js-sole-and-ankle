@@ -101,9 +101,10 @@ const SaleBanner = styled.div`
   top: 12px;
   right: -4px;
   font-size: ${(14 / 16).toString() + "rem"};
+  font-weight: ${WEIGHTS.bold};
 `;
 
-const JustReleasedBanner = styled.div`
+const JustReleasedBanner = styled(SaleBanner)`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +118,7 @@ const JustReleasedBanner = styled.div`
   top: 12px;
   right: -4px;
   font-size: ${(14 / 16).toString() + "rem"};
+  font-weight: ${WEIGHTS.bold};
 `;
 
 const Row = styled.div`

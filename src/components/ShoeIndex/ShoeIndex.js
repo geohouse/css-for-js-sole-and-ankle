@@ -45,21 +45,22 @@ const Wrapper = styled.div`
   flex-direction: row-reverse;
   justify-content: space-between;
   gap: 32px;
+  align-items: baseline;
 `;
 
 const LeftColumn = styled.div`
   margin-left: 32px;
-  flex: 1 1 0px;
+  flex-basis: 248px;
 `;
 
 const MainColumn = styled.div`
-  flex: 4 1 0px;
+  flex: 1;
 `;
 
 const Header = styled.header`
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-right: 37px;
 `;
